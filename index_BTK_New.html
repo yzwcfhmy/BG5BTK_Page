@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>BG5BTK电台</title>
+		<style>
+			#t_bio {
+				background: white;
+				font-family: Arial, sans-serif;
+				color: #333;
+				margin: 0;
+				height: auto;
+			}
+
+			@keyframes header {
+				0% {
+					background-size: 1000%;
+					background-position: 0 0;
+				}
+
+				100% {
+					background-size: 1000%;
+					background-position: 100% 1000%;
+				}
+			}
+
+			@media (max-width: 10px) {
+				.TopHead {
+					flex-direction: column;
+				}
+			}
+
+			#TopHead {
+				text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.8);
+				padding: 20px;
+				width: 80%;
+				height: 90%;
+				margin-left: auto;
+				margin-right: auto;
+
+				color: #fff;
+				background-color: rgba(255, 192, 203, 0.589);
+
+
+				background: #004578;
+			}
+
+			.tab-container {
+				display: flex;
+				justify-content: space-between;
+				border: 1px solid #ccc;
+				background-color: #f1f1f1;
+			}
+
+			.tab {
+				flex: 1;
+				text-align: center;
+
+			}
+
+			.tab input {
+				display: none;
+			}
+
+			.tab label {
+				display: block;
+				padding: 14px 16px;
+				cursor: pointer;
+				transition: 0.3s;
+			}
+
+			.tab label:hover {
+				background-color: rgba(130, 168, 255, 0.3);
+				border-radius: 15px;
+			}
+
+			.tabcontent {
+				display: none;
+				padding: 6px 12px;
+				border-top: none;
+				background-color: rgba(221, 221, 221, 0.3);
+				border-radius: 15px;
+
+			}
+
+			.tabcontent img {
+				width: 50%;
+				border-radius: 3%;
+				box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+				transition: transform 0.3s ease;
+			}
+
+			.tabcontent img:hover {
+				transform: scale(1.2);
+			}
+			
+
+			#img_topside {
+				height: 400px;
+				overflow: hidden;
+				object-fit: cover;
+				object-position: center 70%;
+			}
+
+			#tab1:checked~#content1,
+			#tab2:checked~#content2,
+			#tab3:checked~#content3 {
+				display: block;
+			}
+
+			#websites {
+				text-align: left;
+				margin-left: 20%;
+				margin-right: 20%;
+				font-size: 24px;
+				transition: color 3s ease;
+			}
+
+			#websites :hover,
+			#websites a:hover {
+				background-color: rgba(120, 190, 255, 0.3);
+				border-radius: 15px;
+				color: #00aaff;
+			}
+
+			#websites a,
+			#websites li {
+				color: #ffffff;
+				text-decoration: none;
+				transition: color 0.5s ease;
+			}
+			
+			#btkLog {
+				text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+				transition: background-color 0.2s ease-in-out;
+				box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+				height:550px; 
+				width:900px; 
+				border-radius: 15px;
+				background-color: #ffffff ;
+				transition: transform 0.3s ease;
+			}
+
+			#btkLog:hover {
+				background-color: #f8f0d6;
+				transform: scale(1.2);
+			}
+		</style>
+	</head>
+	<body>
+		<div class="biodiv" id="t_bio">
+			<div id="TopHead">
+
+
+				<div class="tab">
+					<h1>THIS IS BG5BTK. Welcome!</h1>
+					<br>
+					<p for="">————————————>>>&nbsp;&nbsp;菜单&nbsp;&nbsp;/&nbsp;&nbsp;MENU&nbsp;&nbsp;<<<————————————</p>
+						
+					<br>
+					<br>
+						<input type="radio" id="tab1" name="tabs" checked>
+						<label for="tab1">—>⭐ 卡片交换（QSL Card Exchange）</label>
+
+						<input type="radio" id="tab2" name="tabs">
+						<label for="tab2">—>⭐ 关于我（About Me）</label>
+
+						<input type="radio" id="tab3" name="tabs">
+						<label for="tab3">—>⭐ 设备与天馈（RIG & ANT）</label>
+						<br>
+						<p>———————————————————————————————————————</p>
+						<br><br>
+
+						<div id="content1" class="tabcontent">
+
+							<h1>QSL卡片交换/邮寄</h1>
+
+							<p>姓名：余震武 (YU Zhenwu)</p>
+
+							<p>电话：+86 13984107015</p>
+							<p>地址：浙江省台州市临海市江南街道七一河路181号/<strong>邮编 - 317000</strong></p>
+
+							<h4>欢迎您与我交换QSL卡片或发送收听报告，我会第一时间向您回卡！</h4>
+
+							<h5><strong>⭐寄送邮件您只需要寄送QSL卡片即可，不用附带邮资或信封，非常感谢！⭐</strong></h5>
+							<img src="https://cdn-bio.qrz.com/k/bg5btk/QSL_BlueNEWAqaba.jpg" /><br><br>
+
+							<br>——————————————————————————————————————————————————————<br>
+							<h1>QSL card exchange/mailing</h1>
+
+							<p>Name: 余震武 (Zhenwu Yu)</p>
+
+							<p>Phone: +86 13984107015</p>
+
+							<p>Address: 181 Qiyihe Road, Jiangnan Street, Linhai City, Taizhou, Zhejiang Province, China
+								/
+								<strong>POST CODE - 317000</strong>
+							</p>
+
+							<br><br>
+							<h4>Welcome to exchange QSL cards or send listening reports with me, and I will reply to you
+								as
+								soon
+								as possible by mailing the card!</h4>
+
+							<h5><strong>⭐ To send an email, you only need to send a QSL card without the need for
+									postage or
+									envelopes. Thank you! ⭐</strong></h5>
+							<img src="https://cdn-bio.qrz.com/k/bg5btk/QSL_BlueNEWA.jpg?cb=1696905573" /><br><br>
+
+				<br /><br /><iframe id="btkLog" frameborder="0"; scrolling="yes" src="https://logbook.qrz.com/lbstat/BG5BTK/"></iframe>
+						<br /><br /><br />
+						
+						<a  href="https://info.flagcounter.com/n0xv"><img id="countFlag" src="https://s01.flagcounter.com/count2/n0xv/bg_2d54bd/txt_ffffff/border_CCCCCC/columns_6/maxflags_20/viewers_PageStatistics/labels_1/pageviews_0/flags_0/percent_0/" alt="Flag Counter" border="0"></a>
+						<br /><br /><br /></div>
+
+						<div id="content2" class="tabcontent">
+
+							<h2>关于我的故事</h2>
+
+							<p>这里是BG5BTK，很高兴与您相识。</p><br>
+							<p>小时候，我总是蹲在爷爷的收音机旁，陶醉在那奇妙的声音中。电波穿越时空，将遥远的声音带到我的耳边，让我沉浸其中。<br><br>那些声音，仿佛是一阵轻柔的风，在我的内心轻抚。<br><br>当时的我，并不明白它们的来源，但它们给我带来的快乐和好奇心，却成为我童年时光中最美的记忆。
+							</p>
+
+							<img src="https://cdn-bio.qrz.com/k/bg5btk/MyMoto.jpg?cb=1696905573" />
+							<p>高中时代，每当夜幕降临，我都会打开收音机，调到FM95.2频道，倾听着那温暖的节目。<br><br>寂静的夜晚，我和这个频道成了最亲密的伙伴。渐渐地，我发现无线电世界的魅力。<br><br>它不仅仅是一种通信方式，更是一种沟通灵魂的方式。通过电波，我能与远方的人们分享情感、传递思念，这使我在高中时代找到了情感的寄托。
+							</p>
+
+							<img src="https://cdn-bio.qrz.com/k/bg5btk/M2.jpg" />
+
+							<p>毕业后，我意识到自己需要去实现那个曾经的心愿——获得业余无线电执照。<br><br>我花费了半个月学习相关知识，终于如愿以偿。掌握了执照，我心潮澎湃，仿佛翻开了通往未知世界的大门。<br><br>我开始使用自己的设备，与其他业余爱好者交流心得，分享经验。<br><br>在这个庞大的无线电社区中，我结识了一群志同道合的朋友，我们相互学习、探索，一起追求着无线电之美。
+							</p>
+
+							<img id="img_topside" src="https://cdn-bio.qrz.com/k/bg5btk/OnMountain.jpg" />
+
+							<p>未来，我将继续前行，用我的设备，与其他人交流。我愿意倾听世界的声音，用电波传递真情实感。<br><br>在这广阔而神秘的无线电世界中，电波承载着我的声音在空中自由飞翔，激荡着内心的激情与热血。
+							</p>
+
+							<br>——————————————————————————————————————————————————————<br>
+
+							<br><br>
+							<h2>About My Story</h2>
+
+							<p>This is BG5BTK, nice to meet you.</p><br>
+							<p>When I was a child, I used to squat beside my grandfather's radio and revel in its
+								marvelous sounds. The radio waves traversed through time and space, bringing distant
+								voices to my ears, and immersing me in them.<br><br>Those sounds were like a gentle
+								breeze that caressed my heart.<br><br>At that time, I didn't understand their source,
+								but the happiness and curiosity they brought me became the most beautiful memories of my
+								childhood.</p>
+
+							<img src="https://cdn-bio.qrz.com/k/bg5btk/M4.jpg?cb=1696905573" />
+
+							<p>In high school, whenever the night fell, I would turn on the radio and tune into FM95.2
+								to listen to its warm programs. On silent nights, this channel became my closest
+								companion. Gradually, I discovered the charm of the radio world.<br><br>It wasn't just a
+								means of communication, but also a way of communicating souls. Through radio waves, I
+								could share emotions and convey longings with people far away, which gave me emotional
+								sustenance during my high school years.</p>
+
+							<br>
+							<img src="https://cdn-bio.qrz.com/k/bg5btk/M1.jpg?cb=1696905573" />
+
+							<p>After graduation, I realized that I needed to fulfill that long-cherished wish - to
+								obtain an amateur radio license.<br><br>It took me half a month to learn the necessary
+								knowledge, and finally, my wish came true. With the license in hand, I was overwhelmed
+								with excitement, as if I had opened the door to an unknown world.<br><br>I started using
+								my own equipment to exchange ideas and share experiences with other amateur
+								enthusiasts.<br><br>In this vast radio community, I met a group of like-minded friends.
+								We learned from each other, explored together, and pursued the beauty of radio waves.
+							</p>
+							<br>
+							<img src="https://cdn-bio.qrz.com/k/bg5btk/M3.jpg" />
+
+							<p>In the future, I will continue to move forward and communicate with others using my
+								equipment. I am willing to listen to the world's voice and transmit real feelings
+								through radio waves.<br><br>In this vast and mysterious radio world, my voice is carried
+								freely in the air by radio waves, stirring up my passion and blood.</p>
+
+							<br>——————————————————————————————————————————————————————<br>
+
+							<h2>更多联系方式 / More contact</h2>
+							<div id="websites">
+								<ul>
+									<li><a href="mailto:yuzhenwu1999@foxmail.com">⭐ Email:yuzhenwu1999@foxmail.com</a>
+									</li>
+									<li><a href="https://cdn-bio.qrz.com/k/bg5btk/QSL_BlueNEWA.jpg?cb=1696905573">⭐ WeChat: 微信二维码/QR Code of WeChat APP。</a></li>
+									<li><a href="https://space.bilibili.com/11913352">⭐ Bilibili: 青菜萝卜癫癫</a></li>
+									<li><a href="https://twitter.com/yzwcfhmy">⭐ Twitter: BG5BTK</a></li>
+								</ul>
+							</div>
+
+
+						</div>
+
+						<div id="content3" class="tabcontent">
+							<h2>我的电台设备</h2>
+							<ul>
+								<li>设备: KT-8900 / 泉盛UVK5</li>
+								<li>发射功率: 10瓦 / 5瓦</li>
+								<li>使用频段: 144MHz</li>
+								<li>天线类型: 乳酸菌八木天线 BH2RSJ制作</li>
+							</ul>
+
+							<br><br>
+							<img src="https://cdn-bio.qrz.com/k/bg5btk/Forest.jpg?cb=1696905573" />
+							<br><br>
+
+							<br>——————————————————————————————————————————————————————<br>
+							<h2>My Radio Equipment</h2>
+
+							<ul>
+								<li>RIG: KT-8900 / QuanSheng UVK5</li>
+								<li>Transmit Power: 10 / 5 watts</li>
+								<li>Frequency Band: 144MHz</li>
+								<li>Antenna Type: Yagi Produced by BH2RSJ</li>
+							</ul>
+							<br><br>
+							<img src="https://cdn-bio.qrz.com/k/bg5btk/HighM.jpg?cb=1696905573" />
+							<br><br>
+							<img src="https://cdn-bio.qrz.com/k/bg5btk/rs0iss_28_BG5BTK_png.jpg?cb=1696905573" />
+
+							<br><br>
+							<img src="https://cdn-bio.qrz.com/k/bg5btk/QSL_BlueNEWA.jpg?cb=1696905573" />
+							<br><br>
+							<img src="https://cdn-bio.qrz.com/k/bg5btk/B.jpg?cb=1696905573" />
+							<br><br>
+							<img src="https://cdn-bio.qrz.com/k/bg5btk/F.jpg?cb=1696905573" />
+							<br><br>
+							<img src="https://cdn-bio.qrz.com/k/bg5btk/G.jpg?cb=1696905573" />
+							<br><br>
+						</div>
+
+					<p id="lastContent">如果你喜欢这个页面，我可以将页面文件分享给你。↓</p>
+					<p id="lastContent">I share this page file, if you like that you can go this link to download.↓</p>
+					<p>⭐https://wwi.lanzoup.com/iBa591ko6h2b⭐</p><br><br>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
