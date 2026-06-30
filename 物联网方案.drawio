@@ -1,0 +1,211 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="第 1 页" id="yPpU6wjFsawivK_5SPpT">
+    <mxGraphModel dx="1654" dy="1059" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="xV3fvERBchB6P73p4-Oe-32" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="455" width="490" x="90" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="xV3fvERBchB6P73p4-Oe-29" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="80" width="320" x="90" y="1020" as="geometry" />
+        </mxCell>
+        <mxCell id="7UEVuOAqReoKZ6F-Oow1-21" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="390" width="455" x="100" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="7UEVuOAqReoKZ6F-Oow1-3" edge="1" parent="1" source="7UEVuOAqReoKZ6F-Oow1-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="7UEVuOAqReoKZ6F-Oow1-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="290" y="220" />
+              <mxPoint x="290" y="220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7UEVuOAqReoKZ6F-Oow1-4" connectable="0" parent="7UEVuOAqReoKZ6F-Oow1-3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="订单信息下发（订单信息、CAD唛架图文件）" vertex="1">
+          <mxGeometry relative="1" x="-0.2133" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7UEVuOAqReoKZ6F-Oow1-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="悠科MES" vertex="1">
+          <mxGeometry height="40" width="90" x="245" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="7UEVuOAqReoKZ6F-Oow1-6" edge="1" parent="1" source="7UEVuOAqReoKZ6F-Oow1-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="7UEVuOAqReoKZ6F-Oow1-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7UEVuOAqReoKZ6F-Oow1-7" connectable="0" parent="7UEVuOAqReoKZ6F-Oow1-6" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="排版CAD&lt;div&gt;按照省料方案下单（整合好的订单信息、优化后的CAD唛架图）&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.3778" as="geometry">
+            <mxPoint y="8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7UEVuOAqReoKZ6F-Oow1-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="奔马CAD&lt;div&gt;排版软件&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="90" x="245" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="7UEVuOAqReoKZ6F-Oow1-8" edge="1" parent="1" source="7UEVuOAqReoKZ6F-Oow1-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7UEVuOAqReoKZ6F-Oow1-10" connectable="0" parent="7UEVuOAqReoKZ6F-Oow1-8" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="订单自动接收、执行" vertex="1">
+          <mxGeometry relative="1" x="-0.16" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7UEVuOAqReoKZ6F-Oow1-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="奔马订单派送系统" vertex="1">
+          <mxGeometry height="30" width="120" x="230" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="7UEVuOAqReoKZ6F-Oow1-11" edge="1" parent="1" source="7UEVuOAqReoKZ6F-Oow1-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="7UEVuOAqReoKZ6F-Oow1-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="485" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7UEVuOAqReoKZ6F-Oow1-12" connectable="0" parent="7UEVuOAqReoKZ6F-Oow1-11" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="完成订单、回传信息" vertex="1">
+          <mxGeometry relative="1" x="-0.3446" y="3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7UEVuOAqReoKZ6F-Oow1-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="奔马单层裁床X5" vertex="1">
+          <mxGeometry height="30" width="120" x="230" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="7UEVuOAqReoKZ6F-Oow1-18" edge="1" parent="1" source="7UEVuOAqReoKZ6F-Oow1-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="7UEVuOAqReoKZ6F-Oow1-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7UEVuOAqReoKZ6F-Oow1-19" connectable="0" parent="7UEVuOAqReoKZ6F-Oow1-18" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="回传订单完成信息" vertex="1">
+          <mxGeometry relative="1" x="-0.2552" y="-2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7UEVuOAqReoKZ6F-Oow1-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="奔马订单派送系统" vertex="1">
+          <mxGeometry height="30" width="120" x="419" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="xV3fvERBchB6P73p4-Oe-3" edge="1" parent="1" source="xV3fvERBchB6P73p4-Oe-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="xV3fvERBchB6P73p4-Oe-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xV3fvERBchB6P73p4-Oe-4" connectable="0" parent="xV3fvERBchB6P73p4-Oe-3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="下单按照部件下单给CAD" vertex="1">
+          <mxGeometry relative="1" x="-0.1481" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xV3fvERBchB6P73p4-Oe-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="悠科MES" vertex="1">
+          <mxGeometry height="40" width="90" x="155" y="565" as="geometry" />
+        </mxCell>
+        <mxCell id="xV3fvERBchB6P73p4-Oe-6" edge="1" parent="1" source="xV3fvERBchB6P73p4-Oe-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="xV3fvERBchB6P73p4-Oe-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xV3fvERBchB6P73p4-Oe-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="奔马CAD&lt;div&gt;排版软件&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="90" x="155" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="xV3fvERBchB6P73p4-Oe-8" edge="1" parent="1" source="xV3fvERBchB6P73p4-Oe-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="xV3fvERBchB6P73p4-Oe-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="199" y="795" />
+              <mxPoint x="200" y="795" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xV3fvERBchB6P73p4-Oe-15" connectable="0" parent="xV3fvERBchB6P73p4-Oe-8" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="以批次为单位下单&lt;div&gt;单个NC文件（如包含10个dxf）&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.2561" y="-2" as="geometry">
+            <mxPoint x="2" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xV3fvERBchB6P73p4-Oe-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;整合为一个NC文件&lt;/div&gt;&lt;div&gt;每个部件包含任务号标识&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="142.5" x="127.5" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="xV3fvERBchB6P73p4-Oe-10" edge="1" parent="1" source="xV3fvERBchB6P73p4-Oe-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="xV3fvERBchB6P73p4-Oe-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xV3fvERBchB6P73p4-Oe-16" connectable="0" parent="xV3fvERBchB6P73p4-Oe-10" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="任务发送" vertex="1">
+          <mxGeometry relative="1" x="-0.2062" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xV3fvERBchB6P73p4-Oe-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="奔马订单派送系统" vertex="1">
+          <mxGeometry height="30" width="120" x="140" y="830" as="geometry" />
+        </mxCell>
+        <mxCell id="xV3fvERBchB6P73p4-Oe-12" edge="1" parent="1" source="xV3fvERBchB6P73p4-Oe-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;" target="xV3fvERBchB6P73p4-Oe-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xV3fvERBchB6P73p4-Oe-21" connectable="0" parent="xV3fvERBchB6P73p4-Oe-12" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="裁一个部件发一个信息" vertex="1">
+          <mxGeometry relative="1" x="-0.1235" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xV3fvERBchB6P73p4-Oe-22" edge="1" parent="1" source="xV3fvERBchB6P73p4-Oe-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="xV3fvERBchB6P73p4-Oe-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="200" y="940" />
+              <mxPoint x="200" y="960" />
+              <mxPoint x="505" y="960" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xV3fvERBchB6P73p4-Oe-23" connectable="0" parent="xV3fvERBchB6P73p4-Oe-22" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="全部裁剪完成（NC文件报表，包含余料不足未完成情况）" vertex="1">
+          <mxGeometry relative="1" x="0.0577" y="1" as="geometry">
+            <mxPoint x="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xV3fvERBchB6P73p4-Oe-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="奔马单层裁床X5" vertex="1">
+          <mxGeometry height="30" width="120" x="140" y="910" as="geometry" />
+        </mxCell>
+        <mxCell id="xV3fvERBchB6P73p4-Oe-13" edge="1" parent="1" source="xV3fvERBchB6P73p4-Oe-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="xV3fvERBchB6P73p4-Oe-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xV3fvERBchB6P73p4-Oe-24" connectable="0" parent="xV3fvERBchB6P73p4-Oe-13" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="回传完整订单报表" vertex="1">
+          <mxGeometry relative="1" x="-0.4776" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xV3fvERBchB6P73p4-Oe-35" edge="1" parent="1" source="xV3fvERBchB6P73p4-Oe-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;" target="xV3fvERBchB6P73p4-Oe-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="450" y="910" />
+              <mxPoint x="450" y="595" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xV3fvERBchB6P73p4-Oe-36" connectable="0" parent="xV3fvERBchB6P73p4-Oe-35" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="裁完一个片回传一次" vertex="1">
+          <mxGeometry relative="1" x="-0.4941" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xV3fvERBchB6P73p4-Oe-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="奔马订单派送系统" vertex="1">
+          <mxGeometry height="30" width="120" x="445" y="910" as="geometry" />
+        </mxCell>
+        <mxCell id="xV3fvERBchB6P73p4-Oe-17" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="上布机" vertex="1">
+          <mxGeometry height="30" width="70" x="110" y="1060" as="geometry" />
+        </mxCell>
+        <mxCell id="xV3fvERBchB6P73p4-Oe-18" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="奔马单层裁床X5" vertex="1">
+          <mxGeometry height="30" width="120" x="260" y="1060" as="geometry" />
+        </mxCell>
+        <mxCell id="xV3fvERBchB6P73p4-Oe-19" edge="1" parent="1" source="xV3fvERBchB6P73p4-Oe-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.017;entryY=0.512;entryDx=0;entryDy=0;entryPerimeter=0;" target="xV3fvERBchB6P73p4-Oe-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="1075" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xV3fvERBchB6P73p4-Oe-20" connectable="0" parent="xV3fvERBchB6P73p4-Oe-19" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="余料监控" vertex="1">
+          <mxGeometry relative="1" x="-0.0637" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xV3fvERBchB6P73p4-Oe-30" connectable="0" parent="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="裁剪作业细节" vertex="1">
+          <mxGeometry x="127.5" y="1040" as="geometry" />
+        </mxCell>
+        <mxCell id="xV3fvERBchB6P73p4-Oe-33" connectable="0" parent="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="订单派送业务细节" vertex="1">
+          <mxGeometry x="140" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="xV3fvERBchB6P73p4-Oe-38" edge="1" parent="1" source="xV3fvERBchB6P73p4-Oe-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=1.004;entryY=0.911;entryDx=0;entryDy=0;entryPerimeter=0;" target="xV3fvERBchB6P73p4-Oe-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="330" y="750" />
+              <mxPoint x="330" y="601" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xV3fvERBchB6P73p4-Oe-39" connectable="0" parent="xV3fvERBchB6P73p4-Oe-38" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="生成nc文件完成后&lt;div&gt;实时回传该批次裁剪顺序&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.2204" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
