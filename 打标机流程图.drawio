@@ -1,0 +1,71 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="第 1 页" id="TRlUIHBNCdn-YWxvGNsL">
+    <mxGraphModel dx="970" dy="657" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="_r1VizGdndos7T8wug69-3" edge="1" parent="1" source="_r1VizGdndos7T8wug69-1" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" target="_r1VizGdndos7T8wug69-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_r1VizGdndos7T8wug69-4" connectable="0" parent="_r1VizGdndos7T8wug69-3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" value="订单流转服务器" vertex="1">
+          <mxGeometry relative="1" x="0.0542" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_r1VizGdndos7T8wug69-1" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="铺布结束" vertex="1">
+          <mxGeometry height="70" width="70" x="33" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="_r1VizGdndos7T8wug69-5" edge="1" parent="1" source="_r1VizGdndos7T8wug69-2" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=12;startSize=8;endSize=8;" target="_r1VizGdndos7T8wug69-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="450" y="202.31034482758628" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_r1VizGdndos7T8wug69-7" connectable="0" parent="_r1VizGdndos7T8wug69-5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" value="SN" vertex="1">
+          <mxGeometry relative="1" x="0.0207" y="-3" as="geometry">
+            <mxPoint x="-5" y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_r1VizGdndos7T8wug69-15" connectable="0" parent="_r1VizGdndos7T8wug69-5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" value="Text" vertex="1">
+          <mxGeometry relative="1" x="-0.0604" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_r1VizGdndos7T8wug69-16" connectable="0" parent="_r1VizGdndos7T8wug69-5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" value="SN请求凭证" vertex="1">
+          <mxGeometry relative="1" x="-0.0306" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_r1VizGdndos7T8wug69-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="打标机" vertex="1">
+          <mxGeometry height="35" width="77" x="220" y="185" as="geometry" />
+        </mxCell>
+        <mxCell id="_r1VizGdndos7T8wug69-9" edge="1" parent="1" source="_r1VizGdndos7T8wug69-6" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" target="_r1VizGdndos7T8wug69-8" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_r1VizGdndos7T8wug69-11" edge="1" parent="1" source="_r1VizGdndos7T8wug69-6" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" target="_r1VizGdndos7T8wug69-10" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_r1VizGdndos7T8wug69-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="服务器返回订单数据包" vertex="1">
+          <mxGeometry height="32.5" width="150" x="420" y="187.5" as="geometry" />
+        </mxCell>
+        <mxCell id="_r1VizGdndos7T8wug69-13" edge="1" parent="1" source="_r1VizGdndos7T8wug69-8" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" target="_r1VizGdndos7T8wug69-12" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_r1VizGdndos7T8wug69-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="打标机将文件下载&lt;div&gt;放入文件列表中&lt;/div&gt;" vertex="1">
+          <mxGeometry height="35" width="130" x="630" y="185" as="geometry" />
+        </mxCell>
+        <mxCell id="_r1VizGdndos7T8wug69-10" parent="1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=0;align=left;" value="1、BillNo订单号&lt;div&gt;2、CAD文件名&lt;/div&gt;&lt;div&gt;3、CAD下载链接&lt;/div&gt;&lt;div&gt;4、瑕疵报表文本&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="150" x="420" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="_r1VizGdndos7T8wug69-18" edge="1" parent="1" source="_r1VizGdndos7T8wug69-12" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" target="_r1VizGdndos7T8wug69-17" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_r1VizGdndos7T8wug69-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="生成映射关系&lt;div&gt;BillNo对应CAD文件名&lt;/div&gt;&lt;div&gt;等待客户点击开始&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="130" x="630" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="_r1VizGdndos7T8wug69-17" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="开始打标" vertex="1">
+          <mxGeometry height="60" width="130" x="630" y="330" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
